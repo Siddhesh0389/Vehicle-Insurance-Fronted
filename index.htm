@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Vehicale insurance</title>
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link File CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/car-logo.png" class="logo" alt="">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gmail</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+
+        <div class="text">
+            <h4>Powerful, Fun and</h4>
+            <h1>Fierce to <br> <span>Drive</span></h1>
+            <p>Reliabale Coverage, Anytime, Anywhere.</p>
+            <a href="index2.html" class="btn">Click here to know more</a>
+        </div>
+    </div>
+    <div class="form">
+        <h2>Login form</h2>
+        <div class="box">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        <div class="link">
+            <a href="index3.html">Log In</a>
+        </div>
+
+        <div class="link1">
+            <a href="#">Forgot password</a>
+        </div>
+
+        <div class="link2">
+            <a href="#">Create an account</a>
+        </div> 
+    </div>
+
+    <script>
+        let heroBg = document.querySelector('.hero');
+
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(img/imgv2.jpeg)"
+            
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(img/imgv1.jpeg)"
+            }, 1000);
+        }, 2200);
+    </script>
+</body>
+</html>
